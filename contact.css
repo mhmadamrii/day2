@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #eaeaea;
+}
+.container{
+    width: 900px;
+    margin: 50px auto;
+}
+.container h1{
+    text-align: center;
+}
+.form{
+    /* border: 1px solid black; */
+    width: 600px;
+    padding: 10px;
+    overflow: auto;
+    margin: 40px auto;
+}
+#name{
+    width: 100%;
+}
+#submit{
+    float: right;
+    margin-top: 10px;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+/* navbar */
+nav{
+display: flex;
+justify-content: space-between;
+height: 65px;
+background-color: #f0f4f8e3;
+align-items: center;
+}
+.nav-left{
+display: flex;
+padding: 10px 10px;
+width: 400px;
+align-items: center;
+font-weight: bold;
+font-size: 20px;
+}
+.nav-right{
+display: flex;
+padding: 5px 0;
+align-items: center;
+margin-right: 75px;
+/* border: 1px solid; */
+}
+.nav-left img{
+/* border: 1px solid; */
+margin-right: 25px;
+margin-left: 70px;
+width: 40px;
+}
+.home{
+margin-right: 20px;
+color: black;
+}
+.My-P{
+color: black;
+}
+#button{
+padding: 8px 10px;
+border-radius: 8px;
+border: 1px solid;
+background-color: black;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

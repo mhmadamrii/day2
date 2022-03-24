@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task</title>
+    <!-- internal CSS -->
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            text-decoration: none;
+        }
+        .container{
+            width: 600px;
+            margin:100px auto;   
+            padding: 10px;
+            font-size: 20px;
+        }
+        .container p{
+            text-align: justify;
+        }
+        .contact{
+            border: 1px solid;
+            border-radius: 20px;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            background-color: rgb(29, 19, 19);
+        }
+        .contact a{
+            color: white;
+        }
+        .contact:hover{
+            cursor: pointer;
+        }
+        #D-icon{
+            width:15px;
+        }
+        .hero{
+            margin:auto;
+            width: 300px;
+            box-shadow: 0 0 8px grey;
+            border-radius: 5px;
+        }
+        .hero img{
+            width:300px;
+            height: 280px;
+            border-radius: 5px;
+        }
+        .name{
+            text-align: center;
+        }
+        .name:hover{
+            cursor: pointer;
+        }
+        .icon-sm{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hi Welcome to my hut</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos explicabo reprehenderit recusandae, necessitatibus corrupti labore rem ducimus ut voluptates delectus doloremque optio ab velit illum reiciendis quisquam distinctio magnam laudantium expedita ipsum voluptate facilis dolores! Dolorum earum sequi consectetur atque eum esse fuga sit a! Esse amet soluta autem vero?Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, illum ut? Nesciunt inventore cum ducimus accusamus et. Saepe, iste id.</p>
+        <br>
+        <div class="contact"> <a href="contact.html">contact</a></div>
+        <br>
+        <a href="#">download CV</a>
+        <img id="D-icon" src="https://www.svgrepo.com/show/5445/download-button.svg" alt="download"/>
+        <!-- range -->
+        <br><br>
+        <!-- icon social media -->
+        <div class="icon-sm">
+            <!-- linkedIn -->
+            <a href="#">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-512.png" alt="logo-linkedin" width="50px">
+            </a>
+            <!-- instagram -->
+            <a href="#">
+                <img src="https://cdn.freebiesupply.com/images/large/2x/instagram-icon-white-on-black-circle.png" alt="logo-ig" width="64px">
+            </a>
+            <!-- facebook -->
+            <a href="#">
+                <img src="https://iconape.com/wp-content/png_logo_vector/cib-facebook.png" alt="logo-fb" width="50px">
+            </a>
+            <!-- twitter -->
+            <a href="#">
+                <img src="https://www.ecomm911.ca/wp-content/uploads/2018/04/twitter-768x768.png" alt="logo-twitter" width="48px">
+            </a>
+        </div>
+        <br>
+        <!-- hero -->
+        <div class="hero">
+            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" id="man" alt="this is a man">
+            <div class="name">
+                <h1>Muhammad Amri</h1>
+                <span>Fullstack Developer</span>
+            </div>
+            <br>
+        </div>
+    </div>
+    <!-- javascript -->
+    <script>
+        const contact = document.querySelector('.name');
+        contact.addEventListener('click',function(){
+            alert("hello world");
+        });
+    </script>
+</body>
+</html>
